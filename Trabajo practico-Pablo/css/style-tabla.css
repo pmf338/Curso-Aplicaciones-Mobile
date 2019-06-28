@@ -1,0 +1,56 @@
+body{
+
+	font-family: Arial;
+
+}
+
+
+
+table{
+
+	border:2px solid red;
+	border-collapse: collapse;
+	text-align: center;
+	width: 85%;
+	
+
+	
+}
+
+table td{
+
+	border:2px solid red;
+	padding: 10px;
+
+}
+
+img{
+
+	width: 125px;
+	height: 125px;
+}
+
+article{
+
+	overflow-x: auto;
+}
+
+.filas:hover{
+
+	background: green;
+}
+
+.columnas:hover{
+
+	background:black;
+	color: white;
+}
+
+.titulo{
+
+	background-color: green;
+	color:white;
+	padding: 10px;
+}
+
+

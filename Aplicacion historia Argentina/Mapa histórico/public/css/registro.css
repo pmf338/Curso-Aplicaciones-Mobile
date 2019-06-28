@@ -1,0 +1,82 @@
+*{
+
+	box-sizing: border-box;
+}
+
+body{
+
+	margin: 0;
+	font-family:Arial;
+	background: url(https://s6.eestatic.com/2017/09/19/ciencia/investigacion/Mapas-Tierra-Europa-Geografia-Investigacion_247987948_47292027_1024x576.jpg);
+	
+}
+
+h1{
+
+	color: brown;
+	text-align: center;
+}
+
+
+
+#form{
+
+	width: 98%;
+	max-width: 500px;
+	margin: auto;
+	background: white;
+	border-radius: 7px;
+}
+
+#contenedor{
+
+	margin: auto;
+		width: 50%;
+		max-width: 500px;
+		background: #42f4d1;
+		padding: 30px;
+		border:1px solid red;
+
+}
+
+#regis{
+
+	background: crimson;
+	color: white;
+	margin: auto;
+	padding: 10px 40px;
+	cursor: pointer;
+
+}
+
+#link{
+
+	width: 100%;
+	margin: 7px;
+	font-size: 14px;
+	text-align: center;
+
+}
+
+.datos{
+
+	padding: 10px 30px;
+	display: flex;
+	flex-wrap: wrap; /*Para que el contenido que no entre vaya abajo*/
+	margin-bottom: 15px;
+	justify-content: space-between;
+	font-size: 16px;
+	border-radius: 3px;
+	border:1px solid red;
+	margin-left: 30px;
+}
+
+
+label{
+
+	margin: 50px;
+	padding: 10px 0;
+
+}
+
+

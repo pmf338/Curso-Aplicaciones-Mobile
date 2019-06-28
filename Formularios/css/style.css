@@ -1,0 +1,28 @@
+body {
+
+	background-color:rgb(255, 232, 178);
+}
+
+
+input{
+	margin: 5px;
+}
+
+h1{
+	text-align: center;
+}
+#primerParte {
+
+	float:left;
+	display: inline;
+	margin-left: 80px;
+
+}
+
+#segundaParte{
+
+	float:right;
+	display: inline;
+	margin-right: 200px;
+
+}

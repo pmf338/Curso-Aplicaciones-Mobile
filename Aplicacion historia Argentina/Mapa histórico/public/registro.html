@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registro de datos</title>
+	<link rel="stylesheet" href="css/registro.css">
+	<script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+	<script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+	<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
+	
+
+	
+
+
+
+</head>
+<body>
+	
+	<header>
+	<h1>Registre sus datos</h1>
+	</header>
+
+<section>
+	
+		
+		<div id="contenedor">
+			<label>Nombre</label>
+			<input type="text"  placeholder="Nombre" class="datos" id="nombre" > <!-- required hace que tengas que llenar los campos antes de poder registrarte-->
+			
+			<label>Apellido</label>
+			<input type="text"  placeholder="Apellido" class="datos" id="ape" >
+			
+			<label>Email</label>
+			<input type="email"  placeholder="Correo" class="datos" id="email" > 
+			
+			<label>Nombre de usuario</label>
+			<input type="text"  placeholder="Usuario" class="datos" id="usuario" >
+			
+			<label>Contraseña</label>
+			<input type="password"  placeholder="Contraseña" class="datos" id="pass" >
+
+			<label>Confirmar contraseña</label>
+			<input type="password"  placeholder="Contraseña" class="datos" id="conf" >
+			
+			<input type="submit" value="Registrarse" id="regis" onclick="registro()">
+			
+			<p id="link">¿Ya tenés una cuenta? <a href="index.html">Ingresa aquí</a></p>
+
+			
+		
+		</div>
+
+	
+</section>
+
+
+
+<!-- Firebase App is always required and must be first -->
+<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-app.js"></script>
+
+<!-- Add additional services that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-functions.js"></script>
+
+
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/fire.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+/*SIempre poner el height del mapa para establecer el tamaño del contenedor, como en este caso el div*/
+
+
+
+.map-control{display: none;}
+
+
+
+
+#map{
+	
+			height: 100%;
+
+			width:100%;
+			margin-left: 350px;
+			margin-top: 25px;
+			
+
+
+		}
+
+
+#legend {
+			font-family: Arial, sans-serif;
+			background: #fff;
+			padding: 10px;
+			margin: 10px;
+			border: 3px solid #000;
+		  }
+		
+
+
+#menos100v{
+
+	position:absolute; 
+	margin-left: 520px; 
+	width:25px; 
+	height:25px;
+	top: 150px;
+	cursor: pointer;
+}
+
+#menos10v{
+
+position:absolute; 
+margin-left: 550px; 
+width:25px; 
+height:25px;
+top: 150px;
+cursor: pointer;
+
+}
+
+#menos1v{
+
+	position:absolute; 
+	margin-left: 580px; 
+	width:25px;
+	height:25px;
+	top: 150px;
+	cursor: pointer;
+}
+
+#años{
+
+	position:absolute;
+	width:65px;
+	height:23px;
+	margin-left: 610px;
+	text-align:center;
+	top: 150px;
+}
+
+#mas1v{
+
+	position:absolute;
+	 margin-left: 690px;
+	  top:150px;
+	   width:25px;
+		height:25px;
+		cursor: pointer;
+}
+
+#mas10v{
+
+	position:absolute;
+	 margin-left: 720px;
+	  top:150px;
+	   width:25px;
+		height:25px;
+		cursor: pointer;
+}
+
+#mas100v{
+
+	position:absolute;
+	 margin-left: 750px;
+	  top:150px;
+	   width:25px;
+		height:25px;
+		cursor: pointer;
+}
+
+#refrescar{
+
+	position:absolute;
+	 left: 790px;
+	  top:150px;
+	   height:25px;
+
+	  background-color: yellow;
+		color: blue;
+		border:0;
+		cursor: pointer;
+		border-radius: 20px;
+
+}
+
+#nav{
+
+	list-style-type: none; /*no aparecen las bolitas*/
+    text-align: center;
+    background-color: blue;
+    opacity: 0.8;
+    padding: 5px;
+
+
+}
+
+#filtrar{
+
+
+	background: blue;
+}
+
+#cerrar{
+
+	color: white;
+	cursor: pointer;
+
+	
+}
+
+
+
+h1{
+
+		text-align: center;
+		background-color: red;
+		padding: 5px;
+		margin-bottom: 25px;
+}
+
+body{
+
+	
+	background: #92e8b0;
+}
+
+
+
+li{
+
+	display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+    
+}
+
+a{
+	color: white;
+
+}
+
+footer{
+			
+			width: 500px;
+			height: 5px;	
+			font-size: 13px;
+			float:none;
+}
+
+
+.redes{
+
+	width:50px;
+		height:50px;
+}
+
+
+
+
+
+

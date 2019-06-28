@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<title>Test Map</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+	
+	
+
+	
+
+
+
+</head>
+<body>
+
+	<header>
+		<h1>Mapa histórico</h1>
+	</header>	
+
+	<nav>
+
+		<div>
+			
+			<ul id="nav">
+				<li><a href="enciclopedia.html">Enciclopedia</a></li>
+				<li><a href="">Contacto</a></li>
+				<li><a href="index.html">Login</a></li>
+				<li id="cerrar" onclick="logout()">Cerrar Sesión</li>
+			
+			</ul>
+		
+		</div>
+	
+	</nav>
+		
+	
+
+
+	<section>
+
+	<div style="background: brown;">
+
+			<img name="menos100v" src="img/menos100v.jpg" id="menos100v">
+			<img name="menos10v" src="img/menos10v.jpg" id="menos10v">
+			<img name="menos1v" src="img/menos1v.jpg" id="menos1v">
+			<input name="fecha" value="2018" title="años" id="años" border:1px="" type="number" onchange="año()">
+			<img name="mas1v" src="img/mas1v.jpg" id="mas1v" onclick="avanzar()">
+			<img name="mas10v" src="img/mas10v.jpg" id="mas10v">
+			<img name="mas100v" src="img/mas100v.jpg" id="mas100v">
+			<button type="button" title="refrescar" id="refrescar" onclick="reiniciar()"><img name="imagenr" src="img/refresh.png" width="16" height="16" border="0" ></button>
+		
+		
+			
+
+			<button type="button" title="filtrar" id="filtrar"><a href="filtro.html">Filtrar</a></button>
+			
+			
+			<div id="map"></div>
+			<div id="legend"><h3>Legend</h3></div>
+		
+		</div>
+	
+	
+	
+
+	</section>
+		
+		
+	<footer>
+		
+		<h4>Acerca de la app</h4>
+		<br>
+		<p>Mapa historico te permite visualizar la historia argentina en un solo mapa atravesando todas las 
+			epocas del país, observando como fue cambiando el territorio a lo largo de los años y los
+			principales eventos
+		</p>
+		<br>
+		<h4>Acerca de mi</h4>
+		<p>
+			Mi nombre es Pablo Matias Ferrari, tengo 21 años y vivo en Argentina
+		</p>
+		<br>
+		<h4>Podes encontrarme en:</h4>
+		<br>
+		
+		<a href="https://www.facebook.com/pablomatias.ferrari"><img name="face" src="img/face.png" class="redes"></a>
+		<a href="https://www.linkedin.com/in/pablo-ferrari-604399173/"><img name="linke" src="img/linke.png" class="redes"></a> 
+
+		
+	
+	
+	</footer>
+
+
+
+	
+<!-- Firebase App is always required and must be first -->
+<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-app.js"></script>
+
+<!-- Add additional services that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-functions.js"></script>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzx3EHzH5FOzHUgtyyAvD-2nujPpYz96Q&callback=initMap&libraries=drawing"
+async defer></script> <!-- llamo a la libreria de dibujo para que el usuario interactue-->
+
+
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/fire.js"></script>
+
+
+
+
+
+</body>
+</html>

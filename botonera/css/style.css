@@ -1,0 +1,44 @@
+body{
+
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/foto-gratis/smooth-azul-oscuro-vineta-negra-studio-uso-bien-como-fondo-informe-negocios-digital-plantilla-sitio-web_1258-748.jpg?size=626&ext=jpg);
+    background-size: 100%;
+    
+    
+    
+    
+   
+
+}
+
+table{
+
+    background-image: url("../img/busarda.jpg");
+	text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    color: white;
+    
+    
+    
+    
+}
+
+
+
+
+td:hover{
+
+    background:black;
+    color: white;
+    cursor: pointer;
+}
+
+a{
+
+    color: white;
+}

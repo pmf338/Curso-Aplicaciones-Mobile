@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formularios</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	
+
+	<header>
+		<h1>Formularios</h1>
+	</header>
+
+	<section>
+		<article id="primerParte">	
+			<header><h2>Sintáxis básica de un formulario</h2></header>
+
+				<form action="noelia.silva@comunidadit.org" method="post"> 
+					<!-- Indicamos la url o mail que se encarga de procesar los datos del formulario. Indicamos el método http que empleará el formulario.  --> 
+
+					<label for="nombre">Nombre</label> <!-- Nombre del campo-->
+						<input type="text" id="nombre" placeholder="Ingresa tu nombre" maxlength="10" autocomplete="on"> <!-- Campo que toma datos--> 
+					<br> <!-- Generamos vinculación entre el label y el input con for e id -->
+
+					<textarea name="comentarios" rows="20" cols="50"></textarea>
+				</form>
+		</article>
+
+		<article id="segundaParte">
+			<header><h2> Registrate </h2></header>
+			
+				<form>
+
+					<label>Nombre</label>
+						<input type="text" name="nombre"> 
+					<br>
+					
+					<label>Apellido</label>
+						<input type="password" name="apellido">
+					<br>
+
+					<label>Edad</label>
+						<input type="number" name="edad">
+					<br>
+
+					<label>Usuario</label>
+						<input type="text" name="usuario">
+					<br>
+
+					<label>Contraseña</label>
+						<input type="text" name="password">
+					<br>
+
+					<label>Correo</label>
+						<input type="email" name="correo" autocomplete="on" required>
+					<br>
+
+					<label>Femenino</label>
+					<input type="radio" name="genero" checked>  <!-- Selección-->
+					<br>
+					<label>Masculino</label>
+					<input type="radio" name="genero">
+					<br>
+
+					<label>Carga tu foto:</label> <input type="file"> <!-- Carga de archivos-->
+					<br>
+
+					<input type="submit" value="Enviar"> <!-- El valor se enviará al servidor-->
+					<br>
+
+					<input type="reset" value="Restablecer todos los campos">
+					<!-- Reseteo de datos-->
+					<br>
+				</form>
+		</article>
+	</section>
+
+	<a href="form2.html">Siguiente</a>
+	
+</body>
+</html>

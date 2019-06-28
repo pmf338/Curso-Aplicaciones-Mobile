@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formularios - Parte 2</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<h1>Agrupamiento de contenido en un formulario</h1> 
+
+	<form>
+		<fieldset> <!-- Agrupamiento de contenido-->
+			<legend>Datos personales</legend> <!-- Denominación del recuadro -->
+				<label for="nombre"> Nombre:</label>
+			<br>	<input type="text" name="nombre" id="nombre">
+			<br>
+
+				<label for="apellido">Apellido:</label>
+			<br>	<input type="text" name="apellido" id="apellido">
+			<br>
+
+				<label for="sexo">Sexo:</label><br>
+					<input type="radio" name="sexo" id="sexo">Masculino<br> <!-- Selección-->
+					<input type="radio" name="sexo" id="sexo">Femenino<br>
+
+		</fieldset> <!-- Fin del agrupamiento -->
+
+		<br>
+
+
+		<fieldset> 
+			<legend>Datos de acceso</legend>
+				<label for="Usuario">Usuario:</label><br>
+					<input type="text" name="usuario" id="Usuario"><br>
+				<label name="Password">Password:</label><br>
+					<input type="text" name="password" id="Password">
+			<br>
+			<br>
+
+		</fieldset>
+
+		<br>
+
+		<input type="submit" value="Enviar formulario">
+		
+		<br>
+
+		<a href="form3.html">Siguiente</a>
+		<br><br>
+		<a href="index.html">Volver a Inicio</a>
+</body>
+</html>

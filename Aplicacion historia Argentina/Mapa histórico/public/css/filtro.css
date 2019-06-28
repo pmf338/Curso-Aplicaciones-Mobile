@@ -1,0 +1,51 @@
+*{
+
+	box-sizing: border-box;
+}
+
+body{
+
+	margin: 0;
+	font-family:Arial;
+	
+
+}
+
+h2{
+
+	color: blue;
+	text-align: center;
+
+}
+
+#form{
+
+	width: 98%;
+	max-width: 500px;
+	margin: auto;
+	background: white;
+	border-radius: 7px;
+	margin-top: 50px;
+}
+
+div{
+
+	background: #42f495;
+	border-radius: 3px;
+	border:3px solid red;
+	padding: 10px 30px;
+}
+
+
+.filtros{
+
+	margin: 5px;
+	padding: 10px 30px;
+	flex-wrap: wrap; 
+	margin-bottom: 15px;
+	justify-content: space-between;
+	font-size: 16px;
+	border-radius: 3px;
+	border:1px solid red;
+	margin-left: 30px;
+}

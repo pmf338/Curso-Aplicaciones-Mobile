@@ -1,0 +1,29 @@
+#nombre{
+
+	margin-right: 30px;
+}
+
+#apyn{
+
+	color:#4e89e8;
+}
+
+#datosgenerales{
+
+	padding: 15px;
+	border: 15px;
+	border-color: red;
+	margin-left: 15px;
+}
+
+#estudios{
+
+	color:#2c3aba;
+	font-family: 'Merriweather', serif;
+
+}
+
+.fuentedatos{
+
+	font-family: 'Playfair Display', serif;
+}

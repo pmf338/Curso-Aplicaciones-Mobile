@@ -1,0 +1,32 @@
+.subrayado{
+
+	text-decoration: underline;
+	font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+.tabla{
+
+	font-size: 20px;
+}
+
+#tabla{
+
+		font-size: 20px;
+}
+
+#tablacolores{
+
+		margin: 150px;
+		border-width: : 50px;
+		border-color: red;
+}
+
+#a{background-color: #CCCC33;}
+#b{background-color: #FFFF99}
+#c{background-color: #FF6699}
+#d{background-color: #FF0000}
+#e{background-color: #0033FF}
+#f{background-color: #00FFFF}
+#g{background-color: #CCCCCC}
+#h{background-color: #AAAAAA}
+#i{background-color: #FF6633}

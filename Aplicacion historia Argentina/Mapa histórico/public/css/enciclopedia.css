@@ -1,0 +1,25 @@
+#enciclo{
+
+	display: block;
+	width: auto;
+	font-size: 12px;
+	text-align: left;
+	
+}
+
+h4{
+
+	color: rgb(54, 93, 160);
+	font-family: verdana, arial, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: left;
+	line-height: 16.8px;
+}
+
+td{
+
+	vertical-align: top;
+	padding: 3px 3px 3px 3px;
+	
+}
